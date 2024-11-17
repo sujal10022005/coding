@@ -132,7 +132,7 @@ int main(){
     ll.display();
     ll.deleteAtTail();//{50->40->10->NULL}
     ll.display();
-    ll.deleteAtIdx(2);//{50->40->NULL}
+    ll.deleteAtIdx(2);//{50->40->NULL}  
     ll.display();
 
 }

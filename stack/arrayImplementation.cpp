@@ -32,6 +32,12 @@ class Stack{
         int size(){
             return idx+1;
         }
+        void display(){
+            for(int i=0;i<=idx;i++){
+                cout<<arr[i]<<" ";
+            }
+            cout<<endl;
+        }
 };
 int main(){
     Stack st;
@@ -42,5 +48,6 @@ int main(){
     st.pop();
     cout<<st.top()<<endl;
     cout<<st.size()<<endl;
+    st.display(); 
 
 }
